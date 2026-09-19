@@ -49,7 +49,7 @@ class TreeNode {
 
     public static TreeNode fromLevelOrder(String str) {
         if (str == null || str.isEmpty() || str.equals("[]")) return null;
-        String trimmed = str.replaceAll("[\[\]\s]", "");
+        String trimmed = str.replace("[", "").replace("]", "").replace(" ", "");
         if (trimmed.isEmpty()) return null;
         String[] parts = trimmed.split(",");
         if (parts.length == 0 || parts[0].equals("null")) return null;
