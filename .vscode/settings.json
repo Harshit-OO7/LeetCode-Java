@@ -1,0 +1,5 @@
+{
+  "task.allowAutomaticTasks": "on",
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay"
+}

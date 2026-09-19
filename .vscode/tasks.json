@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "LeetCode Auto-Sync Daemon",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/../leetcode-automation/server/server.js"
+      ],
+      "windows": {
+        "command": "node",
+        "args": [
+          "${workspaceFolder}/../leetcode-automation/server/server.js"
+        ]
+      },
+      "osx": {
+        "command": "node",
+        "args": [
+          "${workspaceFolder}/../leetcode-automation/server/server.js"
+        ]
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": [
+          {
+            "regexp": ".",
+            "file": 1,
+            "location": 2,
+            "message": 3
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^===+",
+          "endsPattern": "^===+"
+        }
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": false
+      }
+    }
+  ]
+}
