@@ -8,7 +8,7 @@
  * https://leetcode.com/problems/two-sum/
  *
  * Status: Accepted
- * Runtime: 46 ms | Memory: 47 MB
+ * Runtime: N/A | Memory: N/A
  *
  * Example:
  * Input: nums = [2,7,11,15], target = 9
