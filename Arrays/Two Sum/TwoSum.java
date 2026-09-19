@@ -8,7 +8,7 @@
  * https://leetcode.com/problems/two-sum/
  *
  * Status: Accepted
- * Runtime: 1 ms | Memory: 42.5 MB
+ * Runtime: 46 ms | Memory: 47 MB
  *
  * Example:
  * Input: nums = [2,7,11,15], target = 9
@@ -21,8 +21,12 @@ import java.util.*;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        // Simulated accepted solution body
-    }
+        int i,j;
+        for(i=0;i<nums.length;i++){
+            for(j=i+1;j<nums.length;j++){
+                if(nums[i]+nums[j] == target)
+                    return new int[]{i,j};}}
+        return new int[]{-1,-1};}
 
     public static void main(String[] args) {
         int[] nums = {2,7,11,15};
