@@ -8,7 +8,7 @@
  * https://leetcode.com/problems/longest-common-prefix/
  *
  * Status: Accepted
- * Runtime: 5 ms | Memory: 43.6 MB
+ * Runtime: N/A | Memory: N/A
  *
  * Example:
  * Input: strs = ["flower","flow","flight"]
