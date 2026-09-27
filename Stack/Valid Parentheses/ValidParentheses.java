@@ -39,3 +39,10 @@ class Solution {
         System.out.println("Expected: " + "true");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class ValidParentheses {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

@@ -40,3 +40,10 @@ class Solution {
         System.out.println("Expected: " + "[0,1]");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class TwoSum {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

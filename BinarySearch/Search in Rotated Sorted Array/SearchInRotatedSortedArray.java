@@ -66,3 +66,10 @@ class Solution {
         System.out.println("Expected: " + "4");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class SearchInRotatedSortedArray {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

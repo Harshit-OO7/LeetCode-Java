@@ -37,3 +37,10 @@ class Solution {
         System.out.println("Expected: " + "2");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class ClimbingStairs {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

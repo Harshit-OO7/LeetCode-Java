@@ -36,3 +36,10 @@ class Solution {
         System.out.println("Expected: " + "2, nums = [2,2,_,_]");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class RemoveElement {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

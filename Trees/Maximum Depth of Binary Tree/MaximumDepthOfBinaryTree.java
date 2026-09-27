@@ -34,6 +34,14 @@ class Solution {
     }
 }
 
+
+// Runner class matching filename for Code Runner execution
+class MaximumDepthOfBinaryTree {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}
+
 // Definition for a binary tree node.
 class TreeNode {
     int val;

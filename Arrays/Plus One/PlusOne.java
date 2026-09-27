@@ -49,3 +49,10 @@ class Solution {
         System.out.println("Expected: " + "[1,2,4]");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class PlusOne {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

@@ -1,5 +1,11 @@
 {
   "task.allowAutomaticTasks": "on",
   "git.autofetch": true,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "code-runner.executorMap": {
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": true,
+  "code-runner.saveFileBeforeRun": true
 }

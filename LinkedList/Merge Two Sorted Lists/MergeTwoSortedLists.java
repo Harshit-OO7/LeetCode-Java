@@ -73,3 +73,10 @@ class Solution {
         System.out.println("Expected: " + "[1,1,2,3,4,4]");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class MergeTwoSortedLists {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

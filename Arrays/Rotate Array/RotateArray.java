@@ -38,3 +38,10 @@ class Solution {
         System.out.println("Expected: " + "[5,6,7,1,2,3,4]");
     }
 }
+
+// Runner class matching filename for Code Runner execution
+class RotateArray {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}

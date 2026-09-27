@@ -41,6 +41,14 @@ class Solution {
     }
 }
 
+
+// Runner class matching filename for Code Runner execution
+class ReverseLinkedList {
+    public static void main(String[] args) {
+        Solution.main(args);
+    }
+}
+
 // Definition for singly-linked list.
 class ListNode {
     int val;
