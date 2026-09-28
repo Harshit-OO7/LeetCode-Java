@@ -19,14 +19,10 @@ import java.util.*;
 
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) {
-            return "";
-        }
-
-        int i,j,k,l,count=0;
-        String ans ="";
-        for(j=0;j<strs[0].length();j++)
-        {
+         int i,j,k,l,count=0;
+         String ans ="";
+         for(j=0;j<strs[0].length();j++)
+         {
             for(i=0;i<strs.length-1;i++)
             {
                 if(j >= strs[i+1].length())
@@ -56,12 +52,5 @@ class Solution {
 
         System.out.println("Output: " + result);
         System.out.println("Expected: " + "\"fl\"");
-    }
-}
-
-// Runner class matching filename for Code Runner execution
-class LongestCommonPrefix {
-    public static void main(String[] args) {
-        Solution.main(args);
     }
 }
